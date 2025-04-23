@@ -8,6 +8,6 @@ public class Salario {
         double salarioPorHora = digitar.nextDouble();
         double salarioTotal = horasTrabalhadas*salarioPorHora;
         System.out.println("NUMBER = "+numeroFuncionaio);
-        System.out.printf("SALARY = U$ %.2f",salarioTotal);
+        System.out.printf("SALARY = U$ %.2f\n",salarioTotal);
     }
 }
